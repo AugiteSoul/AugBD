@@ -2,7 +2,7 @@
 class augSound {
 	getName() {return "AugSound";} 
 	getDescription() {return "Very small plugin that plays a custom sound when Discord starts";} 
-	getVersion() {return "1";}
+	getVersion() {return "0.0.1";}
 	getAuthor() {return "augitesoul";}
 start() {
 	var myAudio = document.createElement("audio");
